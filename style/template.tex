@@ -5,7 +5,7 @@
 \usepackage[utf8]{inputenc}
 
 % use language german
-\usepackage[ngerman]{babel}
+% \usepackage[ngerman]{babel}
 
 % format page size
 \usepackage{geometry}
@@ -35,18 +35,14 @@
 \setlist{topsep=0pt, leftmargin=3mm, nolistsep}
 \setlength{\parindent}{0cm}
 
-% author and institute
-\newcommand{\AUTHOR}{Marius Zindel }
-\newcommand{\INSTITUTE}{Hochschule für Technik Rapperswil}
-
 % define header and footer
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
-\fancyhead[RO]{\AUTHOR| \INSTITUTE}
+\fancyhead[RO]{\AUTHOR\space| \INSTITUTE}
 \fancyhead[LO]{\TITLE}
 \fancyfoot[RO]{\DELIVERYDATE}
-\fancyfoot[LO]{Created with \LaTeX}
+\fancyfoot[LO]{\COPYRIGHT}
 \renewcommand\headrulewidth{0pt}
 \renewcommand\footrulewidth{0pt}
 \headsep = -2pt
